@@ -561,12 +561,6 @@ h4 {
     flex-direction: column;
   }
 }
-@media (max-width: 767px) {
-  .hero__title {
-    order: -2;
-    margin-bottom: 10xp;
-  }
-}
 .hero__body {
   display: flex;
   flex-direction: column;
@@ -579,12 +573,18 @@ h4 {
     display: contents;
   }
 }
-.hero__descritpion {
+@media (max-width: 767px) {
+  .hero__title {
+    order: -2;
+    margin-bottom: 10px;
+  }
+}
+.hero__description {
   font-size: 20px;
   line-height: 1.4;
 }
 @media (max-width: 767px) {
-  .hero__descritpion {
+  .hero__description {
     margin-bottom: 40px;
   }
 }
